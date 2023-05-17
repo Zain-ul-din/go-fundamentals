@@ -98,7 +98,7 @@ import "fmt" // standard package | custom package
 ...
 ```
 
-> In go, packages are like partial classes or an assembly  c#.
+> In go, packages are like partial classes or an assembly in c#.
 All files with in same package can access all functions and variables defined in that package.
 
 **`index.go`**

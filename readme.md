@@ -96,10 +96,16 @@ import "fmt" // standard package | custom package
 > index.go
 ```go
 package main 
-import "fmt" // Note! packages don't share imports globally. Other files using main package must import fmt package to access it
+/*
+    Note! packages don't share imports globally. 
+    Other files using main package must import fmt 
+    package to access it.
+*/
+import "fmt" 
 
 ...
 ```
+ 
+### [fundamental Source Code](https://github.com/Zain-ul-din/go-fundamentals/tree/master/fundamentals)
 
-<!-- git_url -->
 

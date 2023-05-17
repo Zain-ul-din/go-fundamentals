@@ -11,6 +11,16 @@
 ### Run Go Code
 
 - create go file `index.go`
+- add following code
+
+```go
+package main
+
+// entry point
+func main () {
+    print("hello world")
+}
+```
 - run command from terminal
 
 ```bash
